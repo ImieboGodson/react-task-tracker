@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "text": "Games Night",
+      "day": "Friday, 10pm",
+      "reminder": true,
+      "isCompleted": false,
+      "id": 1
+    },
+    {
+      "text": "Finish React Crash Course Tutorial From Brad Traversy",
+      "day": "Monday, 3:30pm",
+      "reminder": false,
+      "isCompleted": true,
+      "id": 2
+    }
+  ]
+}
