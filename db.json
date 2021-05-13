@@ -3,16 +3,30 @@
     {
       "text": "Games Night",
       "day": "Friday, 10pm",
-      "reminder": true,
+      "reminder": false,
       "isCompleted": false,
       "id": 1
     },
     {
       "text": "Finish React Crash Course Tutorial From Brad Traversy",
       "day": "Monday, 3:30pm",
-      "reminder": false,
+      "reminder": true,
       "isCompleted": true,
       "id": 2
+    },
+    {
+      "text": "Dev Meet up",
+      "day": "Friday, 2pm",
+      "reminder": true,
+      "isCompleted": false,
+      "id": 3
+    },
+    {
+      "text": "Find out why react-tracker is breaking",
+      "day": "Wednesday, 5am",
+      "reminder": true,
+      "isCompleted": false,
+      "id": 4
     }
   ]
 }

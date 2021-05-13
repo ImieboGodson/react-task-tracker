@@ -122,8 +122,7 @@ const fetchTask = async(id) => {
       <div className="container">
         <Header title="Task Tracker" formDisplay={display} onClicked={toggleFormDisplay}/>
         
-        <Route path="/" exact render={(props) => {
-            return (
+        <Route path="/" exact render={(props) => (
             <>
               <AddTask onAdd={addTask} display={display}/>
               {
@@ -141,9 +140,9 @@ const fetchTask = async(id) => {
               }
             </>
             )
-          }}
+          }
         />
-        <Route path="/About" component={About} />
+        <Route path="/about" component={About} />
         <Footer />
       </div>
     </Router>
